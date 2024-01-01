@@ -3,3 +3,4 @@ export function isPalindrome(x: number): boolean {
   let rev_x: string = x.toString().split("").reverse().join("")
   return str_x === rev_x
 };
+
